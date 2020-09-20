@@ -12,7 +12,7 @@ Telephone|[+375336636339](tel:+375336636339)
 
 ### Summary:
 > Hi, my name is Musa and I'm interesting in Web Development.<br>
-> I study at BSUIR for 4 years.<br>
+> I study at BSUIR for 4 year.<br>
 > I am hardworking, ready to give all of myself to study.<br>
 > I want to improve my skills, learn a lot about Web Development and<br>
 > become a part of frontend community, participate in various projects.
