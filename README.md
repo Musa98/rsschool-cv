@@ -1,1 +1,1 @@
-#My CV file: https://Musa98.github.io/rsschool-cv/cv
+#My CV file: https://Musa98.github.io/rsschool-cv/
