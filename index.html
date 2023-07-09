@@ -4,7 +4,293 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Musa Mamedov CV</title>
 </head>
-<body></body>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li><a href="#about-me" class="navigation__link">About me</a></li>
+                    <li><a href="#skills" class="navigation__link">Skills</a></li>
+                    <li><a href="#example-code" class="navigation__link">Code example</a></li>
+                    <li><a href="#projects" class="navigation__link">Projects</a></li>
+                    <li><a href="#certificates" class="navigation__link">Certificates</a></li>
+                    <li><a href="#contacts" class="navigation__link">Contacts</a></li>
+                    <li><a href="#education" class="navigation__link">Education</a></li>
+                    <li><a href="#jobs" class="navigation__link">Jobs</a></li>
+                    <li><a href="#language" class="navigation__link">Language</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="left-panel">
+                <div class="left-panel__avatar">
+                    <img src="img/avatar.jpg" alt="My Avatar">
+                </div>
+
+                <div id="contacts" class="contacts">
+                    <div class="contacts__title title">
+                        <h2 class="title__content">Contacts</h2>
+                    </div>
+                    <div class="contacts__body">
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <img src="img/telegram.svg" alt="telegram">
+                                <a class="contacts__link" href="https://t.me/SunnerMus">@SunnerMus</a>
+                            </li>
+                            <li class="contacts__item">
+                                <img src="img/gmail.svg" alt="gmail">
+                                <a class="contacts__link" href="mailto:gsunnymus@gmail.com">gsunnymus@gmail.com</a>
+                            </li>
+                            <li class="contacts__item">
+                                <img src="img/phone.svg" alt="phone">
+                                <a class="contacts__link" href="tel:+375336636339">+375 (33) 663-63-39</a>
+                            </li>
+                            <li class="contacts__item">
+                                <img src="img/github.svg" alt="github">
+                                <a class="contacts__link" href="https://github.com/Musa98">Musa98</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="education" class="education">
+                    <div class="education__title title">
+                        <h2 class="title__content">Education</h2>
+                    </div>
+                    <div class="education__body">
+                        <ul class="education__list">
+                            <li class="education__item">
+                                <div class="education__year-container year-container">
+                                    <span class="education__year-content">2016-2021</span>
+                                </div>                              
+                                <a class="education__link" href="https://www.bsuir.by/en/">Belarusian State University of Informatics and Radioelectronics</a>
+                            </li>
+                            <li class="education__item">
+                                <span class="education__year-container year-container">
+                                    <span class="education__year-content">2021-2022</span>
+                                </span>
+                                <a class="education__link" href="https://t.me/SunnerMus">DataMola Course <i>"JS From Zero To Hero"</i></a>
+                            </li>
+                            <li class="education__item">
+                                <span class="education__year-container year-container">
+                                    <span class="education__year-content">2021-2022</span>
+                                </span>
+                                <a class="education__link" href="https://t.me/SunnerMus">DataMola Course <i>"Angular Course"</i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="jobs" class="jobs">
+                    <div class="jobs__title title">
+                        <h2 class="title__content">Jobs</h2>
+                    </div>
+                    <div class="jobs__body">
+                        <ul class="jobs__list">
+                            <li class="jobs__item">
+                                <div class="jobs__year-container  year-container">
+                                    <span class="jobs__year-content">2022-2023</span>
+                                </div>                              
+                                <span>Angular Front-end developer in company <i>"EasyCode"</i></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="language" class="language">
+                    <div class="language__title title">
+                        <h2 class="title__content">Language</h2>
+                    </div>
+                    <div class="language__body">
+                        <ul class="language__list">
+                            <li class="language__item">
+                                <span>English: A2 (Pre Intermediate)</span>
+                            </li>
+                            <li class="language__item">
+                                <span>Russian: Native</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+            <div class="cv-info">
+                <div id="about-me" class="about-me">
+                    <h1 class="about-me__name">Musa Mamedov</h1>
+                    <h2 class="about-me__profession">Front-end developer</h2>
+                    <div class="about-me__body">
+                        <p class="about-me__content">Hi, my name is Musa and I’m interesting in Web Development.<br>
+                            I studied for 4 years and I have a degree in software engineering<br>
+                            As part of my studies at the university, I solved javascript tasks, learned the basics of layout, and also worked with it in practice.<br>
+                            I am hardworking, ready to give all of myself to study.<br>
+                            I want to improve my skills, learn a lot about Web Development and become a part of frontend community, participate in various projects.</p>
+                    </div>
+                </div>
+
+                <div id="skills" class="skills">
+                    <div class="skills__title title">
+                        <h2 class="title__content">Skills</h2>
+                    </div>
+
+                    <div class="skills__body">
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span>HTML</span>
+                            </li>
+                            <li class="skills__item">
+                                <span>CSS</span>
+                            </li>
+                            <li class="skills__item">
+                                <span>Sass</span>
+                            </li>
+                            <li class="skills__item">
+                                <span>Javascript</span>
+                            </li>
+                            <li class="skills__item">
+                                <span>Typescript</span>
+                            </li>
+                            <li class="skills__item">
+                                <span>Figma</span>
+                            </li>
+                            <li class="skills__item">
+                                <span>Github</span>
+                            </li>
+                            <li class="skills__item">
+                                <span>Angular</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="example-code" class="example-code">
+                    <div class="example-code__title title">
+                        <h2 class="title__content">Example Code</h2>
+                    </div>
+
+                    <div class="skills__body">
+                        <span class="skills__title">Function for performing arithmetic operations</span>
+<pre class="skills__code">
+<span class="skills__function">function</span> <span class="skills__function-name">addFunc</span>(arg1, arg2) {
+    <span class="skills__return">return</span> arg1 + arg2;
+}
+                            
+<span class="skills__function">function</span> <span class="skills__function-name">subFunc</span>(arg1, arg2) {
+    <span class="skills__return">return</span> arg1 - arg2;
+}
+                            
+<span class="skills__function">function</span> <span class="skills__function-name">mulFunc</span>(arg1, arg2) {
+    <span class="skills__return">return</span> arg1 * arg2;
+}
+                            
+<span class="skills__function">function</span> <span class="skills__function-name">divFunc</span>(arg1, arg2) {
+    <span class="skills__return">return</span> Math.round(arg1 / arg2);
+}
+                            
+<span class="skills__function">function</span> <span class="skills__function-name">curry</span>(func) {
+                            
+    <span class="skills__return">return</span> <span class="skills__function">function</span> <span class="skills__function-name">curried</span>(...args) {
+        if (args.length >= func.length) {
+            <span class="skills__return">return</span> func.apply(this, args);
+        } else {
+            <span class="skills__return">return</span> <span class="skills__function">function</span> (...args2) {
+                <span class="skills__return">return</span> curried.apply(this, args2.concat(args));
+                }
+            }
+        };
+                            
+    }
+                            
+<span class="skills__function">function</span> <span class="skills__function-name">pipe</span>(...arguments) {
+    let arrFunc = arguments;
+    <span class="skills__return">return</span> <span class="skills__function">function</span> (number) {
+        for (let i = 0; i &lt; arrFunc.length; i++) {
+            number = arrFunc[i](number);
+        }
+        <span class="skills__return">return</span> number;
+    }
+}
+                            
+let add = curry(addFunc);
+let sub = curry(subFunc);
+let mul = curry(mulFunc);
+let div = curry(divFunc);
+</pre>
+                    </div>
+                </div>
+
+                <div id="projects" class="projects">
+                    <div class="projects__title title">
+                        <h2 class="title__content">Projects</h2>
+                    </div>
+
+                    <div class="projects__body">
+                        <ul class="projects__list">
+                            <li class="projects__item">
+                                <a href="https://musa98.github.io/DataMolaActual/main.html">
+                                    <span class="projects__title">Social Note</span>
+                                    <img src="img/SocialNote.png" alt="SocialNote">
+                                </a>
+                            </li>
+
+                            <li class="projects__item">
+                                <a href="https://musa98.github.io/delivery-food/delivery/index.html">
+                                    <span class="projects__title">Delivery Food</span>
+                                    <img src="img/DeliveryFood.png" alt="Deliery Food">
+                                </a>
+                            </li>
+
+                            <li class="projects__item">
+                                <a href="https://musa98.github.io/Hello-World/">
+                                    <span class="projects__title">Hello World School</span>
+                                    <img src="img/HelloWorld.png" alt="Hello World School">
+                                </a>
+                            </li>
+
+                            <li class="projects__item">
+                                <a href="https://musa98.github.io/Web-Layouts/Newsfeed%20developers/index.html">
+                                    <span class="projects__title">Newsfeed Developers</span>
+                                    <img src="img/NewsfeedDevelopers.png" alt="Newsfeed Developersl">
+                                </a>
+                            </li>
+
+                            <li class="projects__item">
+                                <a href="https://musa98.github.io/Web-Layouts/GoCorona/index.html">
+                                    <span class="projects__title">GoCorona</span>
+                                    <img src="img/GoCorona.png" alt="Newsfeed Developersl">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="certificates" class="certificates">
+                    <div class="certificates__title title">
+                        <h2 class="title__content">Certificates</h2>
+                    </div>
+
+                    <div class="certificates__body">
+                        <ul class="certificates__list">
+                            <li class="certificates__item">
+                                <img src="img/DataMola.png" alt="DataMola Course">
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="https://rs.school/js/">
+                <img class="footer__roling-logo" src="img/rs_school_js.svg" alt="RS School Logo">
+            </a>
+            <span class="footer__date-create">2023</span>
+            <a class="footer__github-link" href="https://github.com/Musa98">
+                <span>Github</span>
+                <img class="footer__github-account" src="img/github.svg" alt="Github Account">
+            </a>
+        </footer>
+    </div>
+</body>
 </html>
