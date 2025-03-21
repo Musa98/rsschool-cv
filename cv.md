@@ -1,6 +1,6 @@
 ## &nbsp;&nbsp; ⭐ Musa Mamedov ⭐
 ### &nbsp;&nbsp; &nbsp; 💻 Frontend Developer 💻
-![Avatar](img/avatar.png)
+<img src="img/avatar.jpg" alt="Аватар" width="300">
 
 ***
 
@@ -23,11 +23,11 @@ Github|[Musa98](https://github.com/Musa98)
 
 ***
 ### Skills:
-- ![HTML](img/Html5.svg) **HTML5**
-- ![CSS](img/Css3.svg) **CSS3**
-- ![JS](img/Js.svg) **Javascript**
-- ![Git](img/Git.svg) **Git**
-- ![Figma](img/Figma.svg) **Figma**
+- <img src="img/html5-brands-solid.svg" alt="HTML" width="15"> **HTML5**
+- <img src="img/css3-alt-brands.svg" alt="CSS" width="15"> **CSS3**
+- <img src="img/square-js-brands.svg" alt="JS" width="15"> **Javascript**
+- <img src="img/github-brands.svg" alt="Git" width="15"> **Git**
+- <img src="img/icons8-figma.svg" alt="Figma" width="15"> **Figma**
 
 ***
 ### Code Example:
@@ -63,14 +63,8 @@ function findShort(s){
 
 ***
 ### Education:
-
-![BSUIR](img/BSUIR.jpg)
-
 I graduated from the [Belarusian State Technical University of Informatics and Radioelectronics](https://www.bsuir.by/) in 2021. My specialty is information technology software.
 ***
 ### Languages:
 - English - Pre-Intermediate (CEFR A2+), checked on [Streamline Language School](https://test.str.by/mod/quiz/view.php?id=1176)
-
-![English](/img/English.png)
-
 - Russian - Native
