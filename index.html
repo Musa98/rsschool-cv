@@ -15,19 +15,46 @@
       <header class="header">
         <nav class="header__navigation navigation">
           <ul class="navigation__list">
-            <li><a href="#about-me" class="navigation__link">About me</a></li>
-            <li><a href="#skills" class="navigation__link">Skills</a></li>
-            <li>
-              <a href="#example-code" class="navigation__link">Code example</a>
+            <li class="navigation__element">
+              <a href="#about-me">
+                <span class="navigation__link">About me</span>
+              </a>
             </li>
-            <li><a href="#projects" class="navigation__link">Projects</a></li>
-            <li>
-              <a href="#certificates" class="navigation__link">Certificates</a>
+            <li class="navigation__element">
+              <a href="#skills">
+                <span class="navigation__link">Skills</span>
+              </a>
             </li>
-            <li><a href="#contacts" class="navigation__link">Contacts</a></li>
-            <li><a href="#education" class="navigation__link">Education</a></li>
-            <li><a href="#jobs" class="navigation__link">Jobs</a></li>
-            <li><a href="#language" class="navigation__link">Language</a></li>
+            <li class="navigation__element">
+              <a href="#projects">
+                <span class="navigation__link">Projects</span>
+              </a>
+            </li>
+            <li class="navigation__element">
+              <a href="#certificates">
+                <span class="navigation__link">Certificates</span>
+              </a>
+            </li>
+            <li class="navigation__element">
+              <a href="#contacts">
+                <span class="navigation__link">Contacts</span>
+              </a>
+            </li>
+            <li class="navigation__element">
+              <a href="#education">
+                <span class="navigation__link">Education</span>
+              </a>
+            </li>
+            <li class="navigation__element">
+              <a href="#jobs">
+                <span class="navigation__link">Jobs</span>
+              </a>
+            </li>
+            <li class="navigation__element">
+              <a href="#language">
+                <span class="navigation__link">Language</span>
+              </a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -194,114 +221,61 @@
             </div>
           </div>
 
-          <div id="example-code" class="example-code">
-            <div class="example-code__title title">
-              <h2 class="title__content">Example Code</h2>
-            </div>
-
-            <div class="skills__body">
-              <span class="skills__title"
-                >Function for performing arithmetic operations</span
-              >
-              <!-- <pre class="skills__code">
-<span class="skills__function">function</span> <span class="skills__function-name">addFunc</span>(arg1, arg2) {
-    <span class="skills__return">return</span> arg1 + arg2;
-}
-                            
-<span class="skills__function">function</span> <span class="skills__function-name">subFunc</span>(arg1, arg2) {
-    <span class="skills__return">return</span> arg1 - arg2;
-}
-                            
-<span class="skills__function">function</span> <span class="skills__function-name">mulFunc</span>(arg1, arg2) {
-    <span class="skills__return">return</span> arg1 * arg2;
-}
-                            
-<span class="skills__function">function</span> <span class="skills__function-name">divFunc</span>(arg1, arg2) {
-    <span class="skills__return">return</span> Math.round(arg1 / arg2);
-}
-                            
-<span class="skills__function">function</span> <span class="skills__function-name">curry</span>(func) {
-                            
-    <span class="skills__return">return</span> <span class="skills__function">function</span> <span class="skills__function-name">curried</span>(...args) {
-        if (args.length &gt;= func.length) {
-            <span class="skills__return">return</span> func.apply(this, args);
-        } else {
-            <span class="skills__return">return</span> <span class="skills__function">function</span> (...args2) {
-                <span class="skills__return">return</span> curried.apply(this, args2.concat(args));
-                }
-            }
-        };
-                            
-    }
-                            
-<span class="skills__function">function</span> <span class="skills__function-name">pipe</span>(...arguments) {
-    let arrFunc = arguments;
-    <span class="skills__return">return</span> <span class="skills__function">function</span> (number) {
-        for (let i = 0; i &lt; arrFunc.length; i++) {
-            number = arrFunc[i](number);
-        }
-        <span class="skills__return">return</span> number;
-    }
-}
-                            
-let add = curry(addFunc);
-let sub = curry(subFunc);
-let mul = curry(mulFunc);
-let div = curry(divFunc);
-</pre> -->
-    </div>
-          </div>
-
           <div id="projects" class="projects">
             <div class="projects__title title">
               <h2 class="title__content">Projects</h2>
             </div>
 
             <div class="projects__body">
-              <ul class="projects__list">
-                <li class="projects__item">
-                  <a href="https://musa98.github.io/DataMolaActual/main.html">
-                    <span class="projects__title">Social Note</span>
-                    <img src="img/SocialNote.png" alt="SocialNote">
-                  </a>
-                </li>
+              <div class="slider">
+                <button class="nav-button prev" onClick="moveSlide(-1)">&#10094;</button>
+                <button class="nav-button next" onClick="moveSlide(1)">&#10095;</button>
+                <ul class="projects__list">
+                  <li class="projects__item">
+                    <a href="https://musa98.github.io/DataMolaActual/main.html">
+                      <span class="projects__title">Social Note</span>
+                      <img src="img/SocialNote.png" alt="SocialNote">
+                    </a>
+                  </li>
 
-                <li class="projects__item">
-                  <a
-                    href="https://musa98.github.io/delivery-food/delivery/index.html"
-                  >
-                    <span class="projects__title">Delivery Food</span>
-                    <img src="img/DeliveryFood.png" alt="Deliery Food">
-                  </a>
-                </li>
+                  <li class="projects__item">
+                    <a
+                            href="https://musa98.github.io/delivery-food/delivery/index.html"
+                    >
+                      <span class="projects__title">Delivery Food</span>
+                      <img src="img/DeliveryFood.png" alt="Deliery Food">
+                    </a>
+                  </li>
 
-                <li class="projects__item">
-                  <a href="https://musa98.github.io/Hello-World/">
-                    <span class="projects__title">Hello World School</span>
-                    <img src="img/HelloWorld.png" alt="Hello World School">
-                  </a>
-                </li>
+                  <li class="projects__item">
+                    <a href="https://musa98.github.io/Hello-World/">
+                      <span class="projects__title">Hello World School</span>
+                      <img src="img/HelloWorld.png" alt="Hello World School">
+                    </a>
+                  </li>
 
-                <li class="projects__item">
-                  <a
-                    href="https://musa98.github.io/Web-Layouts/Newsfeed%20developers/index.html"
-                  >
-                    <span class="projects__title">Newsfeed Developers</span>
-                    <img
-                      src="img/NewsfeedDevelopers.png"
-                      alt="Newsfeed Developersl">
-                  </a>
-                </li>
+                  <li class="projects__item">
+                    <a
+                            href="https://musa98.github.io/Web-Layouts/Newsfeed%20developers/index.html"
+                    >
+                      <span class="projects__title">Newsfeed Developers</span>
+                      <img
+                              src="img/NewsfeedDevelopers.png"
+                              alt="Newsfeed Developersl">
+                    </a>
+                  </li>
 
-                <li class="projects__item">
-                  <a
-                    href="https://musa98.github.io/Web-Layouts/GoCorona/index.html"
-                  >
-                    <span class="projects__title">GoCorona</span>
-                    <img src="img/GoCorona.png" alt="Newsfeed Developersl">
-                  </a>
-                </li>
-              </ul>
+                  <li class="projects__item">
+                    <a
+                            href="https://musa98.github.io/Web-Layouts/GoCorona/index.html"
+                    >
+                      <span class="projects__title">GoCorona</span>
+                      <img src="img/GoCorona.png" alt="Newsfeed Developersl">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
             </div>
           </div>
 
@@ -337,5 +311,6 @@ let div = curry(divFunc);
         </a>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
